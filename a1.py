@@ -45,7 +45,7 @@ def factorial(n: int) -> int:
     """
     sum=1
     for i in range(1,n+1):
-        sum= sum * i
+        sum *= i
     return sum
 
 
@@ -63,7 +63,8 @@ def every_other(lst: List[T]) -> List[T]:
     Returns:
         a list of every of other item in the original list starting with the first
     """
-    raise NotImplementedError("every_other")
+    filtered_list = lst[::2]
+    return filtered_list
 
 
 def sum_list(lst: List[int]) -> int:
@@ -76,7 +77,12 @@ def sum_list(lst: List[int]) -> int:
     Returns:
         the sum of the passed in list
     """
-    raise NotImplementedError("sum_list")
+    sum=0
+    i=0
+    while i<len(lst):
+        sum= sum+lst[i]
+        i+=1
+    return sum
 
 
 def mean(lst: List[int]) -> float:
