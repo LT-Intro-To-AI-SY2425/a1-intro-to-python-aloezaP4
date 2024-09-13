@@ -18,12 +18,12 @@ assert fizbuzz(6) == "Fizz", "fizzbuzz 6 test"
 assert fizbuzz(15) == "FizzBuzz", "fizzbuzz 15 test"
 """
 
-##1 
+# 1 
 
 name= "Anthony Loeza"
 age=17
 
-##2
+# 2
 
 def check_number(num):
     if num>0:
@@ -36,3 +36,5 @@ def check_number(num):
 print(check_number(0))
 print(check_number(2))
 print(check_number(-4))
+
+# 3
