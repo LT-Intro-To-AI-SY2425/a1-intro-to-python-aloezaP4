@@ -38,3 +38,9 @@ print(check_number(2))
 print(check_number(-4))
 
 # 3
+
+def sum_of(num1,num2):
+    return num1+num2
+print(sum_of(4,5))
+print(sum_of(2,51))
+print(sum_of(24,32))
