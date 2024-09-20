@@ -13,7 +13,7 @@ Mr. Berg will look at all your files to determine what you have completed.  If t
 ## Reflection Questions
 
 1. What is your initial thoughts about the python programming language?
-I believe that it is simpler than java but it is also a lot different in some senses so it can be confusing for me at points. However, it is fun to learn new code and different methods such as slice which I had never even heard of before.
+
 
 
 2. Describe some similarities and differences that you found between python and other programming languages you have used in the past?
