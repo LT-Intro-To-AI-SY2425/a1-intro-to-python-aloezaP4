@@ -150,7 +150,6 @@ def duck_duck_goose(lst: List[str]) -> List[str]:
     return lst
 
 
-
 # this line causes the nested code to be skipped if the file is imported instead of run
 if __name__ == "__main__":
     assert absolute(-1) == 1, "absolute of -1 failed"
